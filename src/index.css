@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.shadowclass{
+    box-shadow: 2px 0 8px -7px #888;
+}
+
+.b0, .b1, .b2, .b3, .b4, .b5, .b6, .b7, .b8{
+    border-bottom: blue;
+}
