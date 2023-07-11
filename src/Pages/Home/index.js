@@ -2,6 +2,7 @@ import React,{useContext,useState} from 'react'
 import logo from '../Images/logo.png'
 import { AppContext } from '../../AppContext'
 import Overviews from '../../Pages/Overviews'
+import Order from '../Order'
 
 
 export default function Home() {
@@ -164,6 +165,7 @@ export default function Home() {
            <div className='w-[83%] h-full ml-8 mt-4 fixed overflow-scroll'>
                   
                     { handleHeader == 0 && <Overviews/>}
+                    { handleHeader == 1 && <Order/>}
           
            </div>
         </div>
